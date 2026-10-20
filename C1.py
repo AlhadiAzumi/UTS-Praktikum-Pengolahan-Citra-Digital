@@ -3,8 +3,8 @@ import cv2
 from matplotlib_viewer import show_images
 
 # Membaca dua gambar dalam bentuk grayscale
-img1 = cv2.imread("Citra2.png", 0)
-img2 = cv2.imread("Citra1.png", 0)
+img1 = cv2.imread("spid.jpg", cv2.IMREAD_GRAYSCALE)
+img2 = cv2.imread("pnl.jpg", cv2.IMREAD_GRAYSCALE)
 
 # Memeriksa apakah gambar berhasil dibaca
 if img1 is None or img2 is None:

@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Membaca gambar sebagai grayscale
-gambar = cv2.imread("Citra2.png", 0)
+gambar = cv2.imread("spid.jpg", cv2.IMREAD_GRAYSCALE)
 
 if gambar is None:
     print("Gambar tidak ditemukan!")

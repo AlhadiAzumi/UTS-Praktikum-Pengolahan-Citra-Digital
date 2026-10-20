@@ -3,7 +3,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Membaca gambar
-gambar = cv2.imread("Citra2.png")
+gambar = cv2.imread("spid.jpg")
 
 if gambar is None:
     print("Gambar tidak ditemukan!")

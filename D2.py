@@ -5,7 +5,7 @@ from konvolusi import convolve
 from matplotlib_viewer import show_images
 
 # Membaca gambar dalam bentuk grayscale
-img = cv2.imread("Citra3.png", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("spid.jpg", cv2.IMREAD_GRAYSCALE)
 
 if img is None:
     print("Gambar tidak ditemukan. Periksa nama file Citra3.png.")

@@ -3,8 +3,8 @@ import cv2
 from matplotlib_viewer import show_images
 
 # Membaca dua gambar berwarna
-img1 = cv2.imread("Citra1.png")
-img2 = cv2.imread("Citra2.png")
+img1 = cv2.imread("spid.jpg")
+img2 = cv2.imread("pnl.jpg")
 
 # Memeriksa apakah gambar berhasil dibaca
 if img1 is None or img2 is None:

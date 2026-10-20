@@ -4,7 +4,7 @@ import numpy as np
 from matplotlib_viewer import show_images
 
 # Membaca gambar
-gambar = cv2.imread("citra2.png")
+gambar = cv2.imread("spid.jpg")
 
 if gambar is None:
     print("Gambar tidak ditemukan! Periksa nama dan lokasi gambar.")
